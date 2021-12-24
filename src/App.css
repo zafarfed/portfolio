@@ -1,0 +1,128 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+}
+body{
+  background-image: url("../public/photo-1510519138101-570d1dca3d66.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.header{
+  padding-left: 5px;
+  height: 100px;
+  align-items: center;
+}
+.header .logo{
+  font-size: 40px;
+  margin-left: 40px;
+  font-family: "Brush Script MT";
+  font-weight: bold;
+  position: fixed;
+  color: white;
+}
+.window{
+  height: 85vh;
+}
+.name {
+ margin: 150px 0 0 400px;
+}
+.name p{
+  font-size: 80px;
+  font-weight: bold;
+  color: aliceblue;
+}
+.name span{
+  font-size: 40px;
+  color: #099688;
+  margin-left: 70px;
+  font-weight: bold;
+}
+.wrapper{
+  height: 430px;
+  /*background-color: white;*/
+  margin-top: 220px;
+}
+.wrapper .image{
+  width: 250px;
+  height: 236px;
+  border: 10px solid #ffffff;
+  position: absolute;
+  border-radius: 50%;
+  background-image: url("../public/photo_2021-06-24_00-09-39-removebg-preview.png");
+  background-position: center;
+  background-color: #122021;
+  margin: -110px 0 0 550px;
+}
+
+.carusel{
+  background-color: #ffffff;
+  color: #3b3838;
+  font-size: 20px;
+  height: 500px;
+  margin-top: 10px;
+  border-radius: 50px;
+}
+.head{
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+.instagram{
+  color: #d77998;
+  font-size: 25px;
+}
+.facebook{
+  color: #2e2f65;
+  font-size: 25px;
+}
+.twitter{
+  color: #2175cc;
+  font-size: 25px;
+}
+.telegram{
+  color: #2175cc;
+  font-size: 25px;
+}
+.github{
+  font-size: 25px;
+}
+.icon{
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  border-radius: 50%;
+  color: #ffffff;
+  cursor: pointer;
+}
+.icon:hover{
+  background-color: #ffffff;
+  color: gray;
+  border: 3px solid gray;
+}
+.icon .icon-item{
+  font-size: 100px;
+  margin-top: 50px;
+}
+.skills{
+  padding: 8rem;
+  height: 800px;
+}
+.skills p{
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+}
+.skill-1{
+height: 250px;
+  background-color: #76a3a6;
+}
+.skill-2{
+  align-items: center;
+  height: 250px;
+  background-color: #a9bdbe;
+}
+.contacts{
+  background-color: #76a3a6;
+}
+.letter{
+  background-color: #a9bdbe;
+}
